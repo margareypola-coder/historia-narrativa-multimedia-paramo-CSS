@@ -19,7 +19,6 @@
   flex-shrink: 0;
   margin-bottom: 50px;
   margin-top: 20px;
-  text-decoration: none;
 }
 
 
@@ -37,4 +36,19 @@ h4 {
   font-family: Montserrat Alternates;
   font-weight: 600;
   line-height: 37.20px;
+}
+
+h5 {
+  display: flex;
+  width: 951px;
+  height: 209px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: "Montserrat Alternates";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 30px */
 }
