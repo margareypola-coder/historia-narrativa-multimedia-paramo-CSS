@@ -6,8 +6,33 @@
   
 }
 
+.botón-principal {
+ background-color: #84994F; 
+ border-radius: 20px;
+ display: flex;
+  width: 264px;
+  height: 150px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
 h1 {
   font-family: 'montserrat alternates';
   color: rgba(102, 76, 67, 1) ;
+  size: 61px;
+  line-height: 73.20px;
+  font-weight: 700;
+}
 
+h4 {
+  color: #664C43;
+  font-size: 31px;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: 37.20px;
 }
