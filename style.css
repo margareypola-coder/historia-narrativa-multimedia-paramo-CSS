@@ -52,3 +52,139 @@ h5 {
   font-weight: 400;
   line-height: 120%; /* 30px */
 }
+
+/* código para capitulos A */
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* --- SECCIÓN DE LA IMAGEN --- */
+.image-section img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* --- SECCIÓN DEL TEXTO --- */
+.text-section {
+  width: 45%;
+  padding: 60px 50px;
+  color: #4c4c4c;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* --- CAJA DEL TÍTULO --- */
+.title-box {
+  width: 60%;
+  background-color: #1d73c3; /* Azul del cuadro de título */
+  padding: 15px 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.title-box h1 {
+  color: white;
+  font-size: 28px;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* --- PÁRRAFOS --- */
+.text-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+/* --- BOTÓN --- */
+.button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #8aba6b; /* Verde suave */
+  color: white;
+  padding: 12px 22px;
+  border-radius: 12px;
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+/* --- HOVER BOTÓN --- */
+.button:hover {
+  background-color: #6e9d55; /* Verde más oscuro */
+}
+
+/* código para capitulos B */
+
+/* --- CONTENEDOR PRINCIPAL --- */
+.containerB {
+  display: flex;
+  height: 100vh;
+}
+
+/* --- SECCIÓN DE IMAGEN --- */
+.image-sectionB img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* --- SECCIÓN DE TEXTO --- */
+.text-sectionB {
+  width: 45%;
+  padding: 60px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #4c4c4c;
+}
+
+/* --- CAJA DEL TÍTULO --- */
+.title-boxB {
+  width: 60%;
+  background-color: #1d73c3; /* Azul como en capítulos anteriores */
+  padding: 18px 20px;
+  text-align: center;
+  margin-bottom: 35px;
+  border-radius: 6px;
+}
+
+.title-boxB h1 {
+  color: white;
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* --- PÁRRAFOS --- */
+.text-sectionB p {
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* --- BOTONES DOBLES --- */
+.buttonB {
+  display: block;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #8aba6b; /* Verde suave como el primer capítulo */
+  color: #ffffff;
+  padding: 14px 20px;
+  border-radius: 14px;
+  font-size: 17px;
+  transition: background-color 0.3s ease;
+}
+
+/* --- EFECTO HOVER (VERDE MÁS OSCURO) --- */
+.buttonB:hover {
+  background-color: #6e9d55;
+}
