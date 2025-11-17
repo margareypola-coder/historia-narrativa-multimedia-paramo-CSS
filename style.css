@@ -450,4 +450,106 @@ h5 {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 700;
 }
+/**************************
+      PERSONAJES
+**************************/
+
+.personajes-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Fondo */
+.personajes-bg {
+    width: 1440px;
+    height: 1024px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    background-image: url(https://placehold.co/1440x1024);
+}
+
+.personajes-bg img {
+    width: 1536px;
+    height: 1024px;
+    position: absolute;
+    left: -48px;
+    top: 0;
+}
+
+/* Imágenes de personajes */
+.personaje-img {
+    width: 313px;
+    height: 298px;
+    position: absolute;
+}
+
+/* Texto */
+.personaje-text {
+    width: 209px;
+    height: 484px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FDB98C;
+    font-size: 16px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+/* Barra superior */
+.personajes-barra {
+    width: 588px;
+    height: 162px;
+    position: absolute;
+    left: 852px;
+    top: 0;
+    background: linear-gradient(90deg, #CCA988 17%, #A3866B 78%, #72492E 99%);
+}
+
+/* Título */
+.personajes-titulo {
+    position: absolute;
+    left: 899px;
+    top: 45px;
+    display: inline-flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.personajes-titulo div {
+    color: #664C43;
+    font-size: 61px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    line-height: 73.2px;
+}
+
+/* Botón Home */
+.personajes-home {
+    width: 366px;
+    height: 90px;
+    padding: 10px;
+    position: absolute;
+    left: 46px;
+    top: 36px;
+    background: #664C43;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personajes-home div {
+    color: #CCA988;
+    font-size: 31px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
 
