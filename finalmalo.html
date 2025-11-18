@@ -1,35 +1,86 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Alterno</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, width=device-width">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&display=swap" />
+
+<style>
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.final-malo {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+  background-image: url('tu_imagen_final_malo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: 31px;
+  color: #664c43;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.al-final-nada {
+  position: absolute;
+  top: 180px;
+  left: 48%;
+  width: 45%;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #000;
+}
+
+.banner-final {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #a36e6e;
+  padding: 20px 60px 20px 40px;
+  color: #483C32;
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.btn-regresar {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  background-color: #a36e6e;
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: #483C32;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+</style>
 </head>
 <body>
 
-<div class="contenedor-final2">
-
-    <div class="texto-final2">
-        Al final, nada de esto importará realmente. El fuego es demasiado voraz. 
-        Si huyo, la culpa me consumirá tan lentamente como las llamas consumen mi territorio. 
-        Si me quedo, seré solo un espectador más de la destrucción, un testigo inútil de la 
-        aniquilación de todo lo que amo.<br><br>
-        El páramo morirá hoy. Y yo, que quise ser su protector, seré solo la sombra que sobreviva 
-        para contar cómo lo perdimos todo. Mi hogar ya no existe. Y yo respiro sobre sus ruinas.
+<div class="final-malo">
+    
+    <div class="banner-final">
+      EL FINAL
     </div>
 
-    <img class="icono-final2" src="https://placehold.co/100x96">
-
-    <div class="btn-final2">
-        <div>REGRESAR AL INICIO</div>
+    <div class="al-final-nada">
+      <p>Al final nada cambió. El ruido de los motores ahogó el susurro del viento y la niebla se disipó para siempre. No hubo quién defendiera el páramo.</p>
+      <p>La tierra se secó y el silencio que quedó no fue de paz, sino de ausencia. Mi rugido se perdió en el olvido, y con él, la esperanza de un mañana verde.</p>
     </div>
 
-    <div class="barra-final2"></div>
-
-    <div class="titulo-final2">
-        <div>EL FINAL</div>
-    </div>
+    <a href="#" class="btn-regresar">
+      REGRESAR AL INICIO
+    </a>
 
 </div>
 
