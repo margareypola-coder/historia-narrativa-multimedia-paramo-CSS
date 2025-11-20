@@ -56,18 +56,26 @@ h5 {
 .container {
   display: flex;
   height: 100vh;
+  width:100%;
 }
 
 /* --- SECCIÓN DE LA IMAGEN --- */
+.image-section {
+  width: 55%;
+  height: 100%;
+  overflow:visible;
+}
 .image-section img {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
 }
 
 /* --- SECCIÓN DEL TEXTO --- */
 .text-section {
   width: 45%;
+  height: 100%;
+  overflow-y: auto;
   padding: 60px 50px;
   color: #4c4c4c;
   display: flex;
@@ -128,9 +136,14 @@ h5 {
 }
 
 /* --- SECCIÓN DE IMAGEN --- */
+.image-sectionB {
+  width: 55%;
+  height: 100%;
+  overflow: visible;
+}
 .image-sectionB img {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
 }
 
