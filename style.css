@@ -281,21 +281,24 @@ h5 {
 /* POSICIONES INDIVIDUALES */
 
 .btn-sonido { left: 50px; top: 330px; }
-.btn-encuentro { left: 447px; top: 648px; }
-.btn-ataque { left: 1868px; top: 682px; }
-.btn-frailejon { left: 866px; top: 312px; }
-.btn-decision { left: 2375px; top: 597px; }
-.btn-final-2 { left: 2920px; top: 445px; }
-.btn-activista { left: 1395px; top: 379px; }
-.btn-final { left: 1791px; top: 89px; }
+.btn-encuentro { left: 420px; top: 650px; }
+.btn-ataque { left: 1450px; top: 680px; }
+.btn-frailejon { left: 760px; top: 330px; }
+.btn-decision { left: 1650px; top: 580px; }
+.btn-final-2 { left: 1120px; top: 120px; }
+.btn-activista { left: 1100px; top: 420px; }
+.btn-final { left: 1550px; top: 120px; }
+
 /* Fondo general */
+
 .contenedor {
     width: 100%;
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background-image: url(https://placehold.co/3269x1024);
+    background-image: url('assets/SELECCIÓN DE CAPÍTULOS.png');
     background-size: cover;
+    background-position: center;
 }
 
 /* Texto principal */
