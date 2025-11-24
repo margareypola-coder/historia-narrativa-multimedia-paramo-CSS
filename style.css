@@ -1,5 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*HOME*/
+/* FONDO COMPLETO */
+.fondo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: auto;   
+  z-index: 1;
+}
+
+/* OSO SENTADO */
+.oso-sentado {
+  position: absolute;
+  left: 14vw;   
+  bottom: 4vh;
+  height: 45vh;
+  z-index: 4;
+  pointer-events: none;
+}
+
+/* OSO CAMINANDO */
+.oso-caminando {
+  position: absolute;
+  right: 22vw;  
+  bottom: 6vh;
+  height: 40vh;
+  z-index: 4;
+  pointer-events: none;
+}
 
 .titulo {
   background: linear-gradient(90deg, rgba(163, 182, 117, 1), rgba(72, 80, 51, 1));
@@ -67,9 +96,11 @@ h5 {
 /* CONTENEDOR HORIZONTAL REAL */
 #h-scroll {
   display: flex;
+  position: relative;
   overflow-x: scroll;   /* scroll horizontal */
   overflow-y: hidden;
   height: 100vh;
+  width: 400vw;
   scroll-behavior: smooth;
 }
 
