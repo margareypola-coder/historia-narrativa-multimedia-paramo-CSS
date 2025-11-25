@@ -3,7 +3,7 @@
 
 .titulo {
   background: linear-gradient(90deg, rgba(163, 182, 117, 1), rgba(72, 80, 51, 1));
-  width: 50%;
+  width: auto;
 }
 
 .botón-principal {
@@ -23,9 +23,11 @@
 }
 .contenedor-botones {
   display: flex;
-  flex-direction: column; 
-   align-items: center; 
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* para que el título pueda ocupar toda la fila */
 }
+
 
 .texto {
   display:flex;
