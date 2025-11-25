@@ -27,6 +27,12 @@
    align-items: center; 
 }
 
+.texto {
+  display:flex;
+  align-items:inline-flex;
+  padding: 20px;
+}
+
 h1 {
   font-family: 'Montserrat Alternates';
   color: rgba(102, 76, 67, 1) ;
