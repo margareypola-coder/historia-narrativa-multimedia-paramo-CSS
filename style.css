@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*HOME*/
+/*HOME*/
 
 .titulo {
   background: linear-gradient(90deg, rgba(163, 182, 117, 1), rgba(72, 80, 51, 1));
@@ -76,6 +77,8 @@ h5 {
   scroll-behavior: smooth;
   align-items: flex-start;   /* 👈 evita que los botones se estiren a lo alto */
 }
+
+/*HOME*/
 
 /*HOME*/
 

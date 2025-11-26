@@ -52,7 +52,7 @@ slider.addEventListener('pointerdown', (e) => {
   if (slider.matches(':hover')) {
     e.preventDefault();
 
-});
+};
 
 slider.addEventListener('pointermove', (e) => {
   if (!pointerDown) return;
@@ -61,4 +61,4 @@ slider.addEventListener('pointermove', (e) => {
 });
 
 slider.addEventListener('pointerup', () => pointerDown = false);
-slider.addEventListener('pointercancel', () => pointerDown = false);
+slider.addEventListener('pointercancel', () => pointerDown = false);})
